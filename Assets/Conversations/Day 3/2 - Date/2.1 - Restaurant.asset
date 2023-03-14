@@ -1,0 +1,915 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7f9223d6a67fc445b878e54a16b9ed0, type: 3}
+  m_Name: 2.1 - Restaurant
+  m_EditorClassIdentifier: 
+  allLines:
+  - speaker: Narrator
+    dialogue: You head to the place that White Bread was talking about yesterday.
+      "The Bread Bowl."
+    additive: 0
+    character: {fileID: 9213412410739112656, guid: cb23d1df39586df41b232dbbec8a42f1, type: 3}
+    stageDirection: 6
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 381ba96e29360ee439dbb31f53ed7885, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 21300000, guid: a13298e81e8aa1747993e8360ab2a8d4, type: 3}
+  - speaker: Narrator
+    dialogue: Once inside, you spot White Bread sitting at a nearby table.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Narrator
+    dialogue: He smiles and beckons you over.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: White Bread
+    dialogue: Hey! Good to see you. How are you today?
+    additive: 0
+    character: {fileID: 209990660615162275, guid: 89a1677ca29e9044eae39e37fde011dd, type: 3}
+    stageDirection: 7
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 8f01e430a7e640f4893b567f270895d0, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: You
+    dialogue: I am doing well. How about you?
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: White Bread
+    dialogue: I'm feeling good.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: White Bread
+    dialogue: "And still alive too, thanks to you.\r"
+    additive: 0
+    character: {fileID: 209990660615162275, guid: 89a1677ca29e9044eae39e37fde011dd, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 9ec7c56b943308546808d907768787ef, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: You
+    dialogue: Ain't no thing.
+    additive: 0
+    character: {fileID: 9213412410739112656, guid: cb23d1df39586df41b232dbbec8a42f1, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 796a1320fe3e6fd44872e21586707f6c, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: You
+    dialogue: Is that a bowling alley over there?
+    additive: 0
+    character: {fileID: 9213412410739112656, guid: cb23d1df39586df41b232dbbec8a42f1, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 381ba96e29360ee439dbb31f53ed7885, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: White Bread
+    dialogue: Yeah, this place is pretty cool. It's a hybrid sandwich shop/bowling
+      alley.
+    additive: 0
+    character: {fileID: 209990660615162275, guid: 89a1677ca29e9044eae39e37fde011dd, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 8f01e430a7e640f4893b567f270895d0, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: White Bread
+    dialogue: I don't really bowl, but I do love a good sandwich.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: You
+    dialogue: What kind of sandwich is your favourite?
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: White Bread
+    dialogue: Pretty much whatever's popular. I always ask the waiter for a recommendation
+      before I order.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Narrator
+    dialogue: Somehow this doesn't shock you.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: White Bread
+    dialogue: Oh, speaking of waiters!
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Bread Wrapper
+    dialogue: Yo yo yo, Bread Wrapper waitin' this table.
+    additive: 0
+    character: {fileID: 784849124950767176, guid: dfa0b84b5e7fa994b8d6a1e4a69c9e4b, type: 3}
+    stageDirection: 8
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 47ebc064db8873d4d9c2f5a4b7dd1f94, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Bread Wrapper
+    dialogue: You'd best be orderin' if you are able.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: White Bread
+    dialogue: What do you think is the best sandwich today, sir?
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Bread Wrapper
+    dialogue: Gonne be honest, these sandwiches slammin'.
+    additive: 0
+    character: {fileID: 784849124950767176, guid: dfa0b84b5e7fa994b8d6a1e4a69c9e4b, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 1
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Bread Wrapper
+    dialogue: I recommend the grilled cheese or salmon.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: You
+    dialogue: Ooh, Grilled cheese sounds good!
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: White Bread
+    dialogue: And I'll have the salmon, please.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Bread Wrapper
+    dialogue: Orders are taken, hold back your regret.
+    additive: 0
+    character: {fileID: 784849124950767176, guid: dfa0b84b5e7fa994b8d6a1e4a69c9e4b, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 1
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Bread Wrapper
+    dialogue: I have to cook 'em, so I gotta jet.
+    additive: 0
+    character: {fileID: 784849124950767176, guid: dfa0b84b5e7fa994b8d6a1e4a69c9e4b, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 04b952126918c24489c9ab5301ddb37a, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Narrator
+    dialogue: You both make conversation while you wait for your food to be ready.
+    additive: 0
+    character: {fileID: 784849124950767176, guid: dfa0b84b5e7fa994b8d6a1e4a69c9e4b, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 1
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Narrator
+    dialogue: Eventually your food arrives. The waiter places a nicely grilled slice
+      of cheese in front of you, and a cooked salmon in front of White Bread.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: You
+    dialogue: This looks delicious!
+    additive: 0
+    character: {fileID: 9213412410739112656, guid: cb23d1df39586df41b232dbbec8a42f1, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 796a1320fe3e6fd44872e21586707f6c, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: White Bread
+    dialogue: Yeah, the food's great here.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Narrator
+    dialogue: You two eat your meal, and then finish up.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: You
+    dialogue: Hey, I don't know if this is too forward, but I really like you.
+    additive: 0
+    character: {fileID: 9213412410739112656, guid: cb23d1df39586df41b232dbbec8a42f1, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 381ba96e29360ee439dbb31f53ed7885, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: You
+    dialogue: Did you maybe wanna... Come back to my place? I've got an idea.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: White Bread
+    dialogue: For sure, sounds good.
+    additive: 0
+    character: {fileID: 209990660615162275, guid: 89a1677ca29e9044eae39e37fde011dd, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 9ec7c56b943308546808d907768787ef, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}

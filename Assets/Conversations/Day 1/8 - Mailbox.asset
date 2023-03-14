@@ -1,0 +1,408 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7f9223d6a67fc445b878e54a16b9ed0, type: 3}
+  m_Name: 8 - Mailbox
+  m_EditorClassIdentifier: 
+  allLines:
+  - speaker: You
+    dialogue: Now, where's the mailbox post...
+    additive: 0
+    character: {fileID: 9213412410739112656, guid: cb23d1df39586df41b232dbbec8a42f1, type: 3}
+    stageDirection: 6
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 381ba96e29360ee439dbb31f53ed7885, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 21300000, guid: 83bc012984f88cf4d925ff8fc137bccc, type: 3}
+  - speaker: You
+    dialogue: Ah, there it is!
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: ???
+    dialogue: ...
+    additive: 0
+    character: {fileID: 211841289907750644, guid: bf0ccbc428d838142a85b43dd76e5a55, type: 3}
+    stageDirection: 7
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 6bd9f9f5b2e4fca43a02d832dd363e18, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: You
+    dialogue: ...
+    additive: 0
+    character: {fileID: 9213412410739112656, guid: cb23d1df39586df41b232dbbec8a42f1, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: d8ebe0d97087ad1408f81b60058aa329, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Narrator
+    dialogue: ...
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: ???
+    dialogue: ... <i>Heyyy</i>.
+    additive: 0
+    character: {fileID: 211841289907750644, guid: bf0ccbc428d838142a85b43dd76e5a55, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: c8034ee4e55d18847beffb08a61d255e, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Narrator
+    dialogue: Out from under a, uh, <i>nearby bridge,</i> slinks forth this... Creature.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: ???
+    dialogue: Whaddaya got dere, is thadda mailbox? Shaped like a toaster, that's
+      pretty good.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: ???
+    dialogue: How about you help me out, whaddaya say, huh?
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Narrator
+    dialogue: Maybe you should go.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: You
+    dialogue: Uh... Thanks for the offer, but I-
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Narrator
+    dialogue: Nope, I'm taking the reigns.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Narrator
+    dialogue: Overwhelmed by common sense, you quickly return to your home.
+    additive: 0
+    character: {fileID: 211841289907750644, guid: bf0ccbc428d838142a85b43dd76e5a55, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 1
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Narrator
+    dialogue: You decide that you can set up the mailbox first thing tomorrow.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}

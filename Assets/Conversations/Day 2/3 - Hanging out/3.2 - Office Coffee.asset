@@ -1,0 +1,550 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7f9223d6a67fc445b878e54a16b9ed0, type: 3}
+  m_Name: 3.2 - Office Coffee
+  m_EditorClassIdentifier: 
+  allLines:
+  - speaker: Narrator
+    dialogue: You and Baige grab some coffee, and then spend the next half hour discussing
+      various things.
+    additive: 0
+    character: {fileID: 9213412410739112656, guid: cb23d1df39586df41b232dbbec8a42f1, type: 3}
+    stageDirection: 6
+    otherCharacters:
+    - {fileID: 5258029094185205648, guid: 6ea560bf46da2174687f237122908d1c, type: 3}
+    otherStageDirections: 07000000
+    speakerImage: {fileID: 21300000, guid: 381ba96e29360ee439dbb31f53ed7885, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 21300000, guid: e696bca158bac234695dedc3b102bf33, type: 3}
+  - speaker: Narrator
+    dialogue: She also asks occasional rather invasive personal questions.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Baige
+    dialogue: So... You know how you're like, a toaster, right?
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: You
+    dialogue: No, it never occurred to me.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Baige
+    dialogue: Ha-ha. Okay but seriously. Have you ever toasted anyone?
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: You
+    dialogue: Oh my, I...
+    additive: 0
+    character: {fileID: 9213412410739112656, guid: cb23d1df39586df41b232dbbec8a42f1, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: d8ebe0d97087ad1408f81b60058aa329, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: You
+    dialogue: Well, uh, n-no. I haven't.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Baige
+    dialogue: Really? Seems like a shame.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Baige
+    dialogue: Maybe I could, sometime, you know...
+    additive: 0
+    character: {fileID: 5258029094185205648, guid: 6ea560bf46da2174687f237122908d1c, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 5ee0509b7db44e249a110bc60d5b8575, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: You
+    dialogue: '<color=#3333ffff>Is she saying what I think she''s saying?</color> '
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: You
+    dialogue: '<color=#3333ffff>No...</color> '
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: You
+    dialogue: '<color=#3333ffff>Maybe...?</color> '
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Baige
+    dialogue: Oh shoot, nevermind, my break's pretty much over.
+    additive: 0
+    character: {fileID: 5258029094185205648, guid: 6ea560bf46da2174687f237122908d1c, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 93d078106e26de24db3ff30b55d0b789, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Baige
+    dialogue: I've gotta go back to work.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Baige
+    dialogue: But hey, I'm gonna be off tomorrow! Why don't you come with me to the
+      park?
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: You
+    dialogue: Sure, why not?
+    additive: 0
+    character: {fileID: 9213412410739112656, guid: cb23d1df39586df41b232dbbec8a42f1, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 381ba96e29360ee439dbb31f53ed7885, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: You
+    dialogue: I'll see you tomorrow then.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: Baige
+    dialogue: See ya!
+    additive: 0
+    character: {fileID: 5258029094185205648, guid: 6ea560bf46da2174687f237122908d1c, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 1
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: You
+    dialogue: Well, she certainly comes on strong.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}

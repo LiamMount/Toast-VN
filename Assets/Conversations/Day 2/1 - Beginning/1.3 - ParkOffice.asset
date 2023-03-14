@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7f9223d6a67fc445b878e54a16b9ed0, type: 3}
+  m_Name: 1.3 - ParkOffice
+  m_EditorClassIdentifier: 
+  allLines:
+  - speaker: You
+    dialogue: No good. How about...?
+    additive: 0
+    character: {fileID: 9213412410739112656, guid: cb23d1df39586df41b232dbbec8a42f1, type: 3}
+    stageDirection: 6
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 381ba96e29360ee439dbb31f53ed7885, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: 
+    dialogue: 
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 1
+    choiceName: ParkOffice
+    choice1Text: The park
+    choiceConvo1: {fileID: 11400000, guid: 52cc98af690be4d438551cbaaebbfdd5, type: 2}
+    choice1Result: Park
+    choice2Text: The office
+    choiceConvo2: {fileID: 11400000, guid: 52cc98af690be4d438551cbaaebbfdd5, type: 2}
+    choice2Result: Office
+    choice3Text: Somewhere else
+    choiceConvo3: {fileID: 11400000, guid: 6d1a736976268aa49bb9a08aa5b1d830, type: 2}
+    choice3Result: Other
+    bg: {fileID: 0}

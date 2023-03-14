@@ -1,0 +1,352 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7f9223d6a67fc445b878e54a16b9ed0, type: 3}
+  m_Name: 3.1 - Toasting White Bread
+  m_EditorClassIdentifier: 
+  allLines:
+  - speaker: You
+    dialogue: Well, here we are.
+    additive: 0
+    character: {fileID: 9213412410739112656, guid: cb23d1df39586df41b232dbbec8a42f1, type: 3}
+    stageDirection: 6
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 381ba96e29360ee439dbb31f53ed7885, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 21300000, guid: 528dcc0a9c00ce64c99db6c6b6e15fcf, type: 3}
+  - speaker: White Bread
+    dialogue: You have a lovely bedroom! Thanks for inviting me over.
+    additive: 0
+    character: {fileID: 209990660615162275, guid: 89a1677ca29e9044eae39e37fde011dd, type: 3}
+    stageDirection: 7
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 9ec7c56b943308546808d907768787ef, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: You
+    dialogue: Well... I didn't invite you here just so you could see it, you know...
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: White Bread
+    dialogue: Oh?
+    additive: 0
+    character: {fileID: 209990660615162275, guid: 89a1677ca29e9044eae39e37fde011dd, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: ee6149efcdfa44d4b9a59498c53826bb, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: You
+    dialogue: I was wondering, if maybe... You wanted to get toasted?
+    additive: 0
+    character: {fileID: 9213412410739112656, guid: cb23d1df39586df41b232dbbec8a42f1, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 796a1320fe3e6fd44872e21586707f6c, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: White Bread
+    dialogue: Oh, my.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: White Bread
+    dialogue: ...
+    additive: 0
+    character: {fileID: 209990660615162275, guid: 89a1677ca29e9044eae39e37fde011dd, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 9ec7c56b943308546808d907768787ef, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: White Bread
+    dialogue: Why yes, I think that would be nice.
+    additive: 0
+    character: {fileID: 209990660615162275, guid: 89a1677ca29e9044eae39e37fde011dd, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 8f01e430a7e640f4893b567f270895d0, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: White Bread
+    dialogue: I really like you, As long as you're comfortable with it too, then
+      let's do it.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: You
+    dialogue: I am. Are you... ready?
+    additive: 0
+    character: {fileID: 9213412410739112656, guid: cb23d1df39586df41b232dbbec8a42f1, type: 3}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 21300000, guid: 381ba96e29360ee439dbb31f53ed7885, type: 3}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: White Bread
+    dialogue: I sure am.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
+  - speaker: White Bread
+    dialogue: Just tell me what pace <i>you</i> find acceptable.
+    additive: 0
+    character: {fileID: 0}
+    stageDirection: 0
+    otherCharacters: []
+    otherStageDirections: 
+    speakerImage: {fileID: 0}
+    speakingSound: {fileID: 0}
+    timeBetweenLetters: 0.04
+    soundEffect: {fileID: 0}
+    removeFromScene: 0
+    moveSpeed: 0
+    reverseImage: 0
+    animationDirection: 0
+    otherAnimationDirections: 
+    isChoiceNode: 0
+    choiceName: 
+    choice1Text: 
+    choiceConvo1: {fileID: 0}
+    choice1Result: 
+    choice2Text: 
+    choiceConvo2: {fileID: 0}
+    choice2Result: 
+    choice3Text: 
+    choiceConvo3: {fileID: 0}
+    choice3Result: 
+    bg: {fileID: 0}
